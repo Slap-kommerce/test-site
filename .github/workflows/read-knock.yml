@@ -7,7 +7,6 @@ permissions: {}
 
 jobs:
   receive-knock:
-    # Ignore every status except our dedicated channel.
     if: github.event.context == 'knock'
     runs-on: ubuntu-latest
 
